@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="0.0" prefWidth="0.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="application.Controllerbai2">
+   <children>
+      <StackPane layoutX="-9.0" prefHeight="615.0" prefWidth="823.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Label layoutX="131.0" layoutY="75.0" prefHeight="64.0" prefWidth="186.0" text="Question bank" textFill="RED">
+                     <font>
+                        <Font name="Tahoma" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="138.0" layoutY="150.0" prefHeight="27.0" prefWidth="106.0" text="Select a category :" />
+                  <ComboBox fx:id="comboB" layoutX="277.0" layoutY="151.0" onAction="#combobox" opacity="0.57" prefWidth="150.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
